@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAO;
 
 namespace GUI
 {
@@ -33,14 +34,6 @@ namespace GUI
 
         }
 
-        private void BtnMatKhauHienAn_Click(object sender, EventArgs e)
-        {
-            if (txtBoxMatKhau.UseSystemPasswordChar)
-                btnMatKhauHienAn.Text = "Hiện mật khẩu";
-            else
-                btnMatKhauHienAn.Text = "Ẩn mật khẩu";
-            txtBoxMatKhau.UseSystemPasswordChar = !txtBoxMatKhau.UseSystemPasswordChar;
-        }
 
         private void BtnThoat_Click(object sender, EventArgs e)
         {
@@ -51,6 +44,13 @@ namespace GUI
         {
             frmThayDoiMatKhau tdmk = new frmThayDoiMatKhau();
             tdmk.ShowDialog();
+        }
+
+        private void FrmThongTinTaiKhoan_Load(object sender, EventArgs e)
+        {
+            txtBoxHoTen.Text = TaiKhoanDAO.Instance.LayHoTen();
+            txtBoxMaNV.Text = TaiKhoanDAO.Instance.LayMaNhanVien();
+            txtBoxTaiKhoan.Text = TaiKhoanDAO.Instance.LayTenTaiKhoan();
         }
     }
 }
