@@ -11,7 +11,7 @@ using BUS;
 
 namespace GUI
 {
-    public partial class frmMain : Form
+    public partial class frmMain : DevExpress.XtraEditors.XtraForm
     {
         DateTime now = DateTime.Now;
         public frmMain()
@@ -255,12 +255,12 @@ namespace GUI
 
         private void HướngDẫnSửDụngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("./README.md") ;
+            System.Diagnostics.Process.Start("D:/Git/Garage/README.md") ;
         }
 
         private void LiênHệToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/deni12345/QuanLyGarage");
+            System.Diagnostics.Process.Start("https://github.com/KelvinLien/QuanLyGarage");
         }
 
         private void ButtonPhieuThuTienMoiPTT_Click(object sender, EventArgs e)
@@ -649,5 +649,16 @@ namespace GUI
 
         #endregion
 
+        private void menuStripCongCu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void pnThemThongTinKHVaXe_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        
     }
 }
