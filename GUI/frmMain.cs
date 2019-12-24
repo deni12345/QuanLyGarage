@@ -255,12 +255,12 @@ namespace GUI
 
         private void HướngDẫnSửDụngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("D:/Git/Garage/README.md") ;
+            System.Diagnostics.Process.Start("D:/QuanLyGarage/Readme.txt") ;
         }
 
         private void LiênHệToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/KelvinLien/QuanLyGarage");
+            System.Diagnostics.Process.Start("https://github.com/deni12345/QuanLyGarage.git");
         }
 
         private void ButtonPhieuThuTienMoiPTT_Click(object sender, EventArgs e)

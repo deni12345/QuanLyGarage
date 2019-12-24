@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThayDoiMatKhau));
             this.pnlThayDoiMatKhau = new System.Windows.Forms.Panel();
+            this.btnLuuThayDoi = new DevExpress.XtraEditors.SimpleButton();
             this.btnThoat = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnHienMatKhauMoiXacNhan = new DevExpress.XtraEditors.SimpleButton();
@@ -46,7 +47,6 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.txtBoxTaiKhoan = new System.Windows.Forms.TextBox();
             this.lblTaiKhoan = new System.Windows.Forms.Label();
-            this.btnLuuThayDoi = new DevExpress.XtraEditors.SimpleButton();
             this.pnlThayDoiMatKhau.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -68,6 +68,16 @@
             this.pnlThayDoiMatKhau.Name = "pnlThayDoiMatKhau";
             this.pnlThayDoiMatKhau.Size = new System.Drawing.Size(661, 297);
             this.pnlThayDoiMatKhau.TabIndex = 0;
+            // 
+            // btnLuuThayDoi
+            // 
+            this.btnLuuThayDoi.Location = new System.Drawing.Point(112, 247);
+            this.btnLuuThayDoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLuuThayDoi.Name = "btnLuuThayDoi";
+            this.btnLuuThayDoi.Size = new System.Drawing.Size(157, 37);
+            this.btnLuuThayDoi.TabIndex = 8;
+            this.btnLuuThayDoi.Text = "Lưu thay đổi";
+            this.btnLuuThayDoi.Click += new System.EventHandler(this.BtnLuuThayDoi_Click);
             // 
             // btnThoat
             // 
@@ -232,16 +242,6 @@
             this.lblTaiKhoan.Size = new System.Drawing.Size(94, 22);
             this.lblTaiKhoan.TabIndex = 6;
             this.lblTaiKhoan.Text = "Tài khoản:";
-            // 
-            // btnLuuThayDoi
-            // 
-            this.btnLuuThayDoi.Location = new System.Drawing.Point(112, 247);
-            this.btnLuuThayDoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLuuThayDoi.Name = "btnLuuThayDoi";
-            this.btnLuuThayDoi.Size = new System.Drawing.Size(157, 37);
-            this.btnLuuThayDoi.TabIndex = 8;
-            this.btnLuuThayDoi.Text = "Lưu thay đổi";
-            this.btnLuuThayDoi.Click += new System.EventHandler(this.BtnLuuThayDoi_Click);
             // 
             // frmThayDoiMatKhau
             // 
