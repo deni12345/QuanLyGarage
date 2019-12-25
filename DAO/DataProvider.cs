@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace DAO
 {
@@ -12,7 +13,7 @@ namespace DAO
     {
         private static DataProvider instance;
         private DataProvider() { }
-        private string connectionSTR = @"Data Source=MAHLAP\MAHLAP;Initial Catalog=QuanLyGarage;Integrated Security=True";
+        private string connectionSTR = ConfigurationSettings.AppSettings["ConnectionString"];
 
         public static DataProvider Instance
         {

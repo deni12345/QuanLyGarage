@@ -11,7 +11,7 @@ using BUS;
 
 namespace GUI
 {
-    public partial class frmDangNhap : Form
+    public partial class frmDangNhap : DevExpress.XtraEditors.XtraForm
     {
         public frmDangNhap()
         {
@@ -64,5 +64,6 @@ namespace GUI
         {
 
         }
+
     }
 }

@@ -1,0 +1,6 @@
+D:\LTTQ\QuanLyGarage\DTO\bin\Debug\DTO.dll
+D:\LTTQ\QuanLyGarage\DTO\bin\Debug\DTO.pdb
+D:\LTTQ\QuanLyGarage\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\LTTQ\QuanLyGarage\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\LTTQ\QuanLyGarage\DTO\obj\Debug\DTO.dll
+D:\LTTQ\QuanLyGarage\DTO\obj\Debug\DTO.pdb

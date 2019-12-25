@@ -1,0 +1,11 @@
+D:\LTTQ\QuanLyGarage\ClassLibrary1\bin\Debug\BUS.dll
+D:\LTTQ\QuanLyGarage\ClassLibrary1\bin\Debug\BUS.pdb
+D:\LTTQ\QuanLyGarage\ClassLibrary1\bin\Debug\DAO.dll
+D:\LTTQ\QuanLyGarage\ClassLibrary1\bin\Debug\DTO.dll
+D:\LTTQ\QuanLyGarage\ClassLibrary1\bin\Debug\DAO.pdb
+D:\LTTQ\QuanLyGarage\ClassLibrary1\bin\Debug\DTO.pdb
+D:\LTTQ\QuanLyGarage\ClassLibrary1\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\LTTQ\QuanLyGarage\ClassLibrary1\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\LTTQ\QuanLyGarage\ClassLibrary1\obj\Debug\BUS.csproj.CopyComplete
+D:\LTTQ\QuanLyGarage\ClassLibrary1\obj\Debug\BUS.dll
+D:\LTTQ\QuanLyGarage\ClassLibrary1\obj\Debug\BUS.pdb

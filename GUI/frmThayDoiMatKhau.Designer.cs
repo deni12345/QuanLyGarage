@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThayDoiMatKhau));
             this.pnlThayDoiMatKhau = new System.Windows.Forms.Panel();
+            this.btnLuuThayDoi = new DevExpress.XtraEditors.SimpleButton();
             this.btnThoat = new System.Windows.Forms.Button();
-            this.btnLuuThayDoi = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnHienMatKhauMoiXacNhan = new System.Windows.Forms.Button();
+            this.btnHienMatKhauMoiXacNhan = new DevExpress.XtraEditors.SimpleButton();
             this.txtBoxXacNhanMatKhauMoi = new System.Windows.Forms.TextBox();
             this.lblXacNhanMatKhauMoi = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnHienMatKhauMoi = new System.Windows.Forms.Button();
+            this.btnHienMatKhauMoi = new DevExpress.XtraEditors.SimpleButton();
             this.txtBoxNhapMatKhauMoi = new System.Windows.Forms.TextBox();
             this.lblNhapMatKhauMoi = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnHienMatKhauCu = new System.Windows.Forms.Button();
+            this.btnHienMatKhauCu = new DevExpress.XtraEditors.SimpleButton();
             this.txtBoxNhapLaiMatKhauCu = new System.Windows.Forms.TextBox();
             this.lblNhapMatKhauCu = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -57,8 +57,8 @@
             // pnlThayDoiMatKhau
             // 
             this.pnlThayDoiMatKhau.BackColor = System.Drawing.Color.Transparent;
-            this.pnlThayDoiMatKhau.Controls.Add(this.btnThoat);
             this.pnlThayDoiMatKhau.Controls.Add(this.btnLuuThayDoi);
+            this.pnlThayDoiMatKhau.Controls.Add(this.btnThoat);
             this.pnlThayDoiMatKhau.Controls.Add(this.panel4);
             this.pnlThayDoiMatKhau.Controls.Add(this.panel3);
             this.pnlThayDoiMatKhau.Controls.Add(this.panel2);
@@ -68,6 +68,16 @@
             this.pnlThayDoiMatKhau.Name = "pnlThayDoiMatKhau";
             this.pnlThayDoiMatKhau.Size = new System.Drawing.Size(661, 297);
             this.pnlThayDoiMatKhau.TabIndex = 0;
+            // 
+            // btnLuuThayDoi
+            // 
+            this.btnLuuThayDoi.Location = new System.Drawing.Point(112, 247);
+            this.btnLuuThayDoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLuuThayDoi.Name = "btnLuuThayDoi";
+            this.btnLuuThayDoi.Size = new System.Drawing.Size(157, 37);
+            this.btnLuuThayDoi.TabIndex = 8;
+            this.btnLuuThayDoi.Text = "Lưu thay đổi";
+            this.btnLuuThayDoi.Click += new System.EventHandler(this.BtnLuuThayDoi_Click);
             // 
             // btnThoat
             // 
@@ -83,20 +93,6 @@
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.BtnThoat_Click);
             // 
-            // btnLuuThayDoi
-            // 
-            this.btnLuuThayDoi.BackColor = System.Drawing.Color.Transparent;
-            this.btnLuuThayDoi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnLuuThayDoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuThayDoi.Location = new System.Drawing.Point(112, 247);
-            this.btnLuuThayDoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLuuThayDoi.Name = "btnLuuThayDoi";
-            this.btnLuuThayDoi.Size = new System.Drawing.Size(157, 37);
-            this.btnLuuThayDoi.TabIndex = 8;
-            this.btnLuuThayDoi.Text = "Lưu thay đổi";
-            this.btnLuuThayDoi.UseVisualStyleBackColor = false;
-            this.btnLuuThayDoi.Click += new System.EventHandler(this.BtnLuuThayDoi_Click);
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.btnHienMatKhauMoiXacNhan);
@@ -110,15 +106,11 @@
             // 
             // btnHienMatKhauMoiXacNhan
             // 
-            this.btnHienMatKhauMoiXacNhan.BackColor = System.Drawing.Color.Transparent;
-            this.btnHienMatKhauMoiXacNhan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHienMatKhauMoiXacNhan.Location = new System.Drawing.Point(499, 2);
-            this.btnHienMatKhauMoiXacNhan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHienMatKhauMoiXacNhan.Name = "btnHienMatKhauMoiXacNhan";
             this.btnHienMatKhauMoiXacNhan.Size = new System.Drawing.Size(151, 38);
             this.btnHienMatKhauMoiXacNhan.TabIndex = 9;
             this.btnHienMatKhauMoiXacNhan.Text = "Hiện mật khẩu";
-            this.btnHienMatKhauMoiXacNhan.UseVisualStyleBackColor = false;
             this.btnHienMatKhauMoiXacNhan.Click += new System.EventHandler(this.BtnHienMatKhauMoiXacNhan_Click);
             // 
             // txtBoxXacNhanMatKhauMoi
@@ -154,15 +146,11 @@
             // 
             // btnHienMatKhauMoi
             // 
-            this.btnHienMatKhauMoi.BackColor = System.Drawing.Color.Transparent;
-            this.btnHienMatKhauMoi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHienMatKhauMoi.Location = new System.Drawing.Point(499, 2);
-            this.btnHienMatKhauMoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHienMatKhauMoi.Name = "btnHienMatKhauMoi";
             this.btnHienMatKhauMoi.Size = new System.Drawing.Size(151, 38);
             this.btnHienMatKhauMoi.TabIndex = 9;
             this.btnHienMatKhauMoi.Text = "Hiện mật khẩu";
-            this.btnHienMatKhauMoi.UseVisualStyleBackColor = false;
             this.btnHienMatKhauMoi.Click += new System.EventHandler(this.BtnHienMatKhauMoi_Click);
             // 
             // txtBoxNhapMatKhauMoi
@@ -198,15 +186,11 @@
             // 
             // btnHienMatKhauCu
             // 
-            this.btnHienMatKhauCu.BackColor = System.Drawing.Color.Transparent;
-            this.btnHienMatKhauCu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHienMatKhauCu.Location = new System.Drawing.Point(499, 2);
-            this.btnHienMatKhauCu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHienMatKhauCu.Name = "btnHienMatKhauCu";
             this.btnHienMatKhauCu.Size = new System.Drawing.Size(151, 38);
             this.btnHienMatKhauCu.TabIndex = 8;
             this.btnHienMatKhauCu.Text = "Hiện mật khẩu";
-            this.btnHienMatKhauCu.UseVisualStyleBackColor = false;
             this.btnHienMatKhauCu.Click += new System.EventHandler(this.BtnHienMatKhauCu_Click);
             // 
             // txtBoxNhapLaiMatKhauCu
@@ -261,7 +245,6 @@
             // 
             // frmThayDoiMatKhau
             // 
-            this.AcceptButton = this.btnLuuThayDoi;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -290,7 +273,6 @@
 
         private System.Windows.Forms.Panel pnlThayDoiMatKhau;
         private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Button btnLuuThayDoi;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox txtBoxXacNhanMatKhauMoi;
         private System.Windows.Forms.Label lblXacNhanMatKhauMoi;
@@ -303,8 +285,9 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox txtBoxTaiKhoan;
         private System.Windows.Forms.Label lblTaiKhoan;
-        private System.Windows.Forms.Button btnHienMatKhauMoiXacNhan;
-        private System.Windows.Forms.Button btnHienMatKhauMoi;
-        private System.Windows.Forms.Button btnHienMatKhauCu;
+        private DevExpress.XtraEditors.SimpleButton btnHienMatKhauCu;
+        private DevExpress.XtraEditors.SimpleButton btnHienMatKhauMoi;
+        private DevExpress.XtraEditors.SimpleButton btnHienMatKhauMoiXacNhan;
+        private DevExpress.XtraEditors.SimpleButton btnLuuThayDoi;
     }
 }
